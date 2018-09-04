@@ -1,8 +1,8 @@
 using System;
 
-class MainClass 
+public class MainClass 
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("Ispisivanje teksta je lako!");
     }
