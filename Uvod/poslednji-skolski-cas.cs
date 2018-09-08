@@ -17,7 +17,7 @@ namespace Poslednji_skolski_cas
             Console.WriteLine("Unesi koliko casova imas danas");
             N = int.Parse(Console.ReadLine()); // Unos
 
-            for (int i = 1; i <= N; i++)
+            for (int i = 1; i < N; i++)
             {
                 if (i == 2)
                 {
