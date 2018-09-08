@@ -20,9 +20,13 @@ namespace Poslednji_skolski_cas
             for (int i = 1; i <= N; i++)
             {
                 if (i == 2)
+                {
                     zbir += 20;
+                }
                 else
+                {
                     zbir += 5;
+                }
             }
 
             zbir += N * 45; // Broj časova
