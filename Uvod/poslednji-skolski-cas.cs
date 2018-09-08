@@ -40,9 +40,14 @@ namespace Poslednji_skolski_cas
                 minut -= 60;
             }
 
-            Console.WriteLine("{0}" + ":" + "{1}", sat + 8, minut);
+            Ispis(minut, sat);
 
             Console.ReadKey();
+        }
+
+        private static void Ispis(int minut, int sat)
+        {
+            Console.WriteLine("{0}" + ":" + "{1}", sat + 8, minut);
         }
     }
 }
