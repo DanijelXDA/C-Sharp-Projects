@@ -13,8 +13,11 @@ public class MainClass
         minuti += brojCasova * 45;
         for (int i  = 1; i < brojCasova; ++i)
         {
-            if (i == 2) 
+            if (i == 2)
+            {
                 minuti += 20; // Veliki odmor
+                continue;
+            }
 
             minuti += 5;
         }
