@@ -4,21 +4,21 @@ public class MainClass
 {
     public static void Main(string[] args)
     {
-        int brojCasova;
+        int brojCasova, minuti = 0;
 
         Console.WriteLine("Unesi koliko casova imas danas: ");
         brojCasova = int.Parse(Console.ReadLine());
 
-        int minuti = 0;
-        for(int i  = 1; i < brojCasova; ++i)
+
+        minuti += brojCasova * 45;
+        for (int i  = 1; i < brojCasova; ++i)
         {
-            if (i == 2)
+            if (i == 2) 
                 minuti += 20; // Veliki odmor
 
             minuti += 5;
         }
 
-        minuti += (minuti * brojCasova);
 
         int sati = 8; // 8 ujutru
 
