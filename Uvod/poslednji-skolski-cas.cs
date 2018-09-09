@@ -4,23 +4,21 @@ public class MainClass
 {
     public static void Main(string[] args)
     {
-        int brojCasova, minuti = 0;
+        int brojCasova, i, minuti = 0;
 
         Console.WriteLine("Unesi koliko casova imas danas: ");
         brojCasova = int.Parse(Console.ReadLine());
 
 
         minuti += brojCasova * 45;
-        for (int i  = 1; i < brojCasova; ++i)
+        for (i = 2; i < brojCasova; ++i)
         {
-            if (i == 2)
-            {
-                minuti += 20; // Veliki odmor
-                continue;
-            }
-
             minuti += 5;
         }
+
+        // i je lokalnog nivoa!
+        if ( i > 2)
+             minuti += 20;
 
 
         int sati = 8; // 8 ujutru
