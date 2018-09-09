@@ -1,50 +1,35 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Poslednji_skolski_cas
+public class MainClass
 {
-    class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
+        int N;
+        int sum = 0;
+        int min, hour;
+
+        Console.WriteLine("How many classes do you have?");
+        N = int.Parse(Console.ReadLine()); // Input
+
+        for (int i = 2; i < N; i++)
         {
-            int N;
-            int zbir = 0;
-            int minut, sat;
-
-            Console.WriteLine("Unesi koliko casova imas danas");
-            N = int.Parse(Console.ReadLine()); // Unos
-
-            for (int i = 1; i < N; i++)
-            {
-                if (i == 2)
-                {
-                    zbir += 20;
-                }
-                else
-                {
-                    zbir += 5;
-                }
-            }
-
-            zbir += N * 45; // Broj časova
-
-            sat = zbir / 60; // 1 sat ima 60 minuta
-            minut = zbir - (sat * 60); // Koliko ima minuta
-
-            if (minut > 60)
-            {
-                sat += 1;
-                minut -= 60;
-            }
-
-            Ispis(minut, sat);
-
-            Console.ReadKey();
+            sum += 5;
         }
+        // 20 + 45 = 65; 1h 5 min
+        sum += 20; // Number of classes must be greater then 2
+        sum += N * 45; // Number of classes
 
-        private static void Ispis(int minut, int sat) => Console.WriteLine("{0}" + ":" + "{1}", sat + 8, minut);
+        hour = sum / 60; // 1h = 60 mins
+        min = sum - (hour * 60); // Koliko ima minuta
+
+        if (min > 60)
+        {
+            hour += 1;
+            min -= 60;
+        }
+        // Hour + 8 because 1st school class starts from 8 AM
+        Console.WriteLine("{0}" + ":" + "{1}", hour + 8, min);
+
+        Console.ReadKey();
     }
 }
