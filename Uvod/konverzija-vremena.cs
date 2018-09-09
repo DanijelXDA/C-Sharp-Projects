@@ -10,7 +10,7 @@ class MainClass
 
         hh = sekunde / 3600;
         mm = ( sekunde - (hh * 3600) ) / 60;
-        ss = sekunde -  ( mm * 60 ) + ( hh * 3600 );
+        ss = sekunde - ( ( mm * 60 ) + ( hh * 3600 ));
 
         if( hh > 24 ) // Provera da li smo premašili opseg sati
           hh -= 24; 
