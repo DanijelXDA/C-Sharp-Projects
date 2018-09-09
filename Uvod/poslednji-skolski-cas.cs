@@ -25,8 +25,7 @@ public class MainClass
 
         int sati = 8; // 8 ujutru
 
-        // Problematičan deo!!! //
-        sati += (minuti / 60);
+        sati += minuti / 60;
         minuti -= (sati - 8) * 60; // Pretvaranje u minute
 
         Console.WriteLine(sati + ":" + minuti); // Ispis
