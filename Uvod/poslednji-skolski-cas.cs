@@ -14,9 +14,10 @@ public class MainClass
         for (int i = 2; i < N; i++)
         {
             sum += 5;
+            // 20 + 45 = 65; 1h 5 min; for N = 1
+            sum += 20; // Number of classes must be greater then 2
         }
-        // 20 + 45 = 65; 1h 5 min
-        sum += 20; // Number of classes must be greater then 2
+
         sum += N * 45; // Number of classes
 
         hour = sum / 60; // 1h = 60 mins
