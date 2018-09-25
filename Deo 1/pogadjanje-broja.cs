@@ -15,7 +15,7 @@ class Program
             while (true)
             {
                 Console.Write("\nUnesite broj u opsegu od 1 do 100 (0 za kraj programa): ");
-                int ulaz = Convert.ToInt32(Console.ReadLine());
+                int ulaz = int.Parse(Console.ReadLine());
                 if (ulaz == 0)
                     return;
                 else if (ulaz < zamisljeniBroj)
