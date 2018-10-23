@@ -1,3 +1,14 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///                                                                                                              ///
+///                            AUTHOR: Danijel Jovanović                                                         ///
+///                            DATE: 23.10.2018.                                                                 ///
+///                            GitHub: https://github.com/DanijelXDA                                             ///
+///                            Licence: GNU GPL v3 (Program.cs Part)                                             ///
+///                            PROJECT LINK: https://goo.gl/gpoLmV                                               ///
+///                            LATEST COMMIT: Use system function for leap year instead of own function          ///
+///                                                                                                              ///
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 using System;
 
 namespace Domaci_Z1
