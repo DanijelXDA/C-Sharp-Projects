@@ -164,7 +164,7 @@ namespace Domaci_Z1
         }
         public static bool prestupnaGodina(int godina)  // Funkcija koja proverava da li je uneta godina prestupna
         {
-            if ( (godina % 4 == 0 && godina % 100 != 0) || (godina % 400 == 0) ) // Prestupna godina
+            if( DateTime.IsLeapYear(godina) ) // Prestupna
                 return true;
             else   // Nije prestupna
                 return false;
