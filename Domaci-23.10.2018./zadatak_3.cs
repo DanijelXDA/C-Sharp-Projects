@@ -123,6 +123,11 @@ namespace Domaci_Z1
                     {
                         if (dan == 28 && prestupnaGodina(godina)) // Prestupna godina -> Postoji 29. februar
                             dan++;
+                        else if (dan == 28 && !(prestupnaGodina(godina)) ) // Slučaj 28.2. i godina nije prestupna
+                        {
+                            dan = 1;
+                            mesec++;
+                        }
                         else if (dan <= 27)
                             dan++;
 
