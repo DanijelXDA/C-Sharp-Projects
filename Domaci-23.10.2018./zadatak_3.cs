@@ -151,7 +151,6 @@ namespace Domaci_Z1
                             mesec = 3; // Mart
                         }
 
-
                         break; // Sprecavanje programskog propadanja!
                     }
             }
