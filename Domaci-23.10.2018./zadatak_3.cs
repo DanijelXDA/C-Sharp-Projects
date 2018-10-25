@@ -1,14 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///                                                                                                              ///
-///                            AUTHOR: Danijel Jovanović                                                         ///
-///                            DATE: 25.10.2018.                                                                 ///
-///                            GitHub: https://github.com/DanijelXDA                                             ///
-///                            Licence: GNU GPL v3 (Program.cs Part)                                             ///
-///                            PROJECT LINK: https://goo.gl/gpoLmV                                               ///
-///                            LATEST COMMIT: Use system function for leap year instead of own function          ///
-///                                                                                                              ///
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 using System;
 
 namespace Domaci_Z1
@@ -27,17 +16,10 @@ namespace Domaci_Z1
                 dan = Convert.ToInt32(Console.ReadLine());
 
                 if (dan <= 0 || dan > 31)
-                {
-                    pokusaji++;
-
-                    if (pokusaji == 3)
-                        Console.WriteLine("Iskoriscen je maximalan broj pokusaja... Go and die xD");
-                    else
-                        Console.WriteLine("Unos nije validan! Broj preostalih pokusaja: {0}", 3 - pokusaji);
-                }
+                    pokusaji = preostaliPokusaji(pokusaji);
                 else
                     break;
-
+         
             } while (pokusaji < 3);
 
             // Unos meseca i provera limita
@@ -47,14 +29,7 @@ namespace Domaci_Z1
                 mesec = Convert.ToInt32(Console.ReadLine());
 
                 if (mesec <= 0 || mesec > 12)
-                {
-                    pokusaji++;
-
-                    if (pokusaji == 3)
-                        Console.WriteLine("Iskoriscen je maximalan broj pokusaja... Go and die xD");
-                    else
-                        Console.WriteLine("Unos nije validan! Broj preostalih pokusaja: {0}", 3 - pokusaji);
-                }
+                    pokusaji = preostaliPokusaji(pokusaji);
                 else
                     break;
 
@@ -67,14 +42,7 @@ namespace Domaci_Z1
                 godina = Convert.ToInt32(Console.ReadLine());
 
                 if (godina <= 1970 || godina > 2010)
-                {
-                    pokusaji++;
-
-                    if (pokusaji == 3)
-                        Console.WriteLine("Iskoriscen je maximalan broj pokusaja... Go and die xD");
-                    else
-                        Console.WriteLine("Unos nije validan! Broj preostalih pokusaja: {0}", 3 - pokusaji);
-                }
+                    pokusaji = preostaliPokusaji(pokusaji);
                 else
                     break;
 
@@ -167,6 +135,15 @@ namespace Domaci_Z1
 
             Console.ReadKey();
 
+        }
+        public static int preostaliPokusaji(int p) // Provera preostalih pokusaja
+        {
+            if (p == 3)
+               Console.WriteLine("Iskoriscen je maximalan broj pokusaja... Go and die xD");
+            else
+                Console.WriteLine("Unos nije validan! Broj preostalih pokusaja: {0}", 3 - p);
+
+            return ++p;
         }
         public static bool prestupnaGodina(int godina)  // Funkcija koja proverava da li je uneta godina prestupna
         {
