@@ -1,0 +1,8 @@
+C:\Users\Danijel\Desktop\JA TITAN 2018 Calculator\JA TITAN 2018 Calculator\bin\Debug\JA TITAN 2018 Calculator.exe
+C:\Users\Danijel\Desktop\JA TITAN 2018 Calculator\JA TITAN 2018 Calculator\bin\Debug\JA TITAN 2018 Calculator.pdb
+C:\Users\Danijel\Desktop\JA TITAN 2018 Calculator\JA TITAN 2018 Calculator\obj\Debug\JA TITAN 2018 Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Danijel\Desktop\JA TITAN 2018 Calculator\JA TITAN 2018 Calculator\obj\Debug\JA_TITAN_2018_Calculator.calcThread.resources
+C:\Users\Danijel\Desktop\JA TITAN 2018 Calculator\JA TITAN 2018 Calculator\obj\Debug\JA_TITAN_2018_Calculator.Properties.Resources.resources
+C:\Users\Danijel\Desktop\JA TITAN 2018 Calculator\JA TITAN 2018 Calculator\obj\Debug\JA TITAN 2018 Calculator.csproj.GenerateResource.Cache
+C:\Users\Danijel\Desktop\JA TITAN 2018 Calculator\JA TITAN 2018 Calculator\obj\Debug\JA TITAN 2018 Calculator.exe
+C:\Users\Danijel\Desktop\JA TITAN 2018 Calculator\JA TITAN 2018 Calculator\obj\Debug\JA TITAN 2018 Calculator.pdb
