@@ -1,0 +1,76 @@
+﻿body {
+	background-image: linear-gradient(to right, #193b6f, #4b3979, #763076, #9b2166, #b5194b);
+}
+
+.tabela {
+	width: 100%;
+	text-align: center;
+}
+
+#naslov {
+	font-family: Arial;
+	font-size: x-large;
+	font-weight: bold;
+	color: #fff;
+	border: 1.3px solid;
+	border-radius: 10px;
+}
+
+.ikona {
+	width: 64px;
+	height: 40px;
+	cursor: pointer;
+	border: 1.3px solid #fff;
+	border-radius: 10px;
+}
+
+#glavna {
+	border: 1.3px solid #fff;
+	border-radius: 10px;
+	width: 320px;
+	height: 200px;
+}
+
+#container {
+	width: 640px;
+	height: 480px;
+	margin: auto;
+}
+
+#naslovfot {
+	font-family: Arial;
+	color: #fff;
+	font-size: x-large;
+	border: 1.3px solid;
+	border-radius: 10px;
+}
+
+a {
+	color: #fff;
+	padding-top: 5px;
+	margin-bottom: 15px;
+}
+
+.divcic {
+	text-align: center;
+	color: #124181;
+	font-size: large;
+	border: 1.3px solid;
+	border-radius: 10px;
+}
+
+.uputstvo {
+	font-family: Arial;
+	font-size: large;
+	text-align: center;
+	color: #fff;
+	margin-right: 35%;
+	margin-left: 35%;
+}
+
+p {
+    border: 1.3px solid;
+    border-radius: 10px;
+    margin-right: 40%;
+	margin-left: 40%;
+}
