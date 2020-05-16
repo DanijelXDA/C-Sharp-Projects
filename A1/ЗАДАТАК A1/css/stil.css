@@ -1,0 +1,43 @@
+﻿body {
+	background-image: url('../slike/pozadina.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+.slika {
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+
+#naslov {
+	font-family: Arial;
+	font-size: x-large;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+
+.divcic {
+	text-align: center;
+	color: #124181;
+	font-style: italic;
+	font-size: large;
+}
+
+.uputstvo {
+    font-style: italic;
+	font-size: x-large;
+	text-align: center;
+	color: #124181;
+	font-style: italic;
+    background-color: #ffd800;
+    margin-right: 35%;
+    margin-left: 35%;
+}
