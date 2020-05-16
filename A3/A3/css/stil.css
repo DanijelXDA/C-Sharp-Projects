@@ -1,0 +1,70 @@
+﻿body {
+	background-image: linear-gradient(to right, #196e96, #007a98, #008489, #008c6a, #0a9040);
+}
+
+#naslov {
+ font-family: Arial;
+ font-size: x-large;
+ font-weight: bold;
+ color: #fff;
+ text-align: center;
+ border: 1.3px solid #fff;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 35%;  
+}
+#centar {
+ text-align: center;
+}
+#prognoza {
+ width: 700px;
+ height: 400px;
+}
+
+a, label {
+	color: #fff;
+	padding-top: 5px;
+	margin-bottom: 15px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+select {
+	color: gray;
+	padding-top: 5px;
+	margin-bottom: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    border: 0px solid #fff;
+	border-radius: 6px;
+}
+
+.divcic {
+	text-align: center;
+	color: #124181;
+	font-size: large;
+	border: 1.3px solid #fff;
+	border-radius: 10px;
+}
+
+.uputstvo {
+	font-family: Arial;
+	font-size: large;
+	text-align: center;
+	color: #fff;
+	margin-right: 35%;
+	margin-left: 35%;
+}
+
+input {
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	border: 0px solid #fff;
+	border-radius: 6px;
+    background-color: #25217A;
+}
+
+iframe {
+    border: none;
+}

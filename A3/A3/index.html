@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Почетна</title>
+      <link href="css/stil.css" rel="stylesheet" />
+      <script src="js/functions.js"></script>
+   </head>
+   <body>
+      <div id="naslov">ВРЕМЕНСКА ПРОГНОЗА</div>
+      <br />
+      <div id="centar">
+         <div id="Div1" class="divcic uputstvo">
+         <a href="oautoru.html">О аутору</a>&nbsp;&nbsp;&nbsp;
+         <a href="uputstvo.html">Упутство</a>
+      </div>
+         <br /><br />
+         <form>
+            <label>Изаберите град :</label>
+            <select id ="selectgrad">
+               <option value="beograd">Београд</option>
+               <option value="cacak">Чачак</option>
+               <option value="dimitrovgrad">Димитровград</option>
+               <option value="jagodina">Јагодина</option>
+               <option value="kladovo">Кладово</option>
+               <option value="kopaonik">Копаоник</option>
+               <option value="kragujevac">Крагујевац</option>
+               <option value="krusevac">Крушевац</option>
+               <option value="lebane">Лебане</option>
+               <option value="loznica">Лозница</option>
+            </select>
+            <br /><br />
+            <input type="button" value="Прикажи" onclick="fun()"/>
+            <br /><br />
+            <iframe id="prognoza" src="https://naslovi.net/vremenska-prognoza/"></iframe>
+         </form>
+      </div>
+   </body>
+</html>
