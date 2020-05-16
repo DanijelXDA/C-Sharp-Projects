@@ -1,0 +1,89 @@
+﻿.sediste {
+	cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+.tabela {
+	width: 100%;
+	text-align: center;
+}
+
+.tdsir20 {
+	width: 7%;
+}
+
+#naslov {
+	font-family: Arial;
+	font-size: x-large;
+	color: #0000FF;
+	font-weight: bold;
+	height: 40px;
+}
+
+.centar {
+	text-align: center;
+	margin-left: 35%;
+    margin-right: 40%;
+}
+
+body {
+    background-image: linear-gradient(to right, #7d3518, #781926, #690036, #4e0045, #210c4f);
+}
+
+#naslov, h2 {
+	font-family: Arial;
+	font-size: x-large;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	border: 1.3px solid #fff;
+	border-radius: 10px;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+#centar {
+	text-align: center;
+}
+
+a, label, td {
+	color: #fff;
+	padding-top: 5px;   
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.divcic {
+	text-align: center;
+	color: #124181;
+	font-size: large;
+	border: 1.3px solid #fff;
+	border-radius: 10px;
+}
+
+.uputstvo {
+	font-family: Arial;
+	font-size: large;
+	text-align: center;
+	color: #fff;
+	margin-right: 35%;
+	margin-left: 35%;
+}
+
+input {
+	text-align: center;
+	color: #000;
+	font-size: 25px;
+	border: 0px solid #fff;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+.mrnjao {
+	margin-left: 110%;
+}
+
+.povuci20 {
+	margin-left: -69%;
+}
