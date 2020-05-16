@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Почетна</title>
+      <link href="css/stil.css" rel="stylesheet" />
+      <script src="js/functions.js"></script>
+   </head>
+   <body>
+      <div id="naslov">Музички инструменти</div>
+      <br />
+      <div id="centar">
+         <div id="Div1" class="divcic uputstvo">
+            <a href="oautoru.html">О аутору</a>&nbsp;&nbsp;&nbsp;
+            <a href="uputstvo.html">Упутство</a>
+         </div>
+         <br /><br />
+         <table class="tabela">
+            <tr class="naslovtabela">
+               <td>Назив инструмента</td>
+               <td>Слика инструмента</td>
+               <td>Звук инструмента</td>
+            </tr>
+            <tr class="visina">
+               <td>Гитара</td>
+               <td><img src="slike/gitara.jpg" class="slika" onclick="git();" /></td>
+               <td><img src="slike/zvucnik.jpg" class="slika" onmouseover="gitplay();"/></td>
+            </tr>
+            <tr class="visina">
+               <td>Клавир</td>
+               <td><img src="slike/klavir.jpg" class="slika" onclick="kla();" /></td>
+               <td><img src="slike/zvucnik.jpg" class="slika" onmouseover="klaplay();" /></td>
+            </tr>
+            <tr class="visina">
+               <td>Флаута</td>
+               <td><img src="slike/flauta.jpg" class="slika" onclick="fla();" /></td>
+               <td><img src="slike/zvucnik.jpg" class="slika" onmouseover="flaplay();"/></td>
+            </tr>
+            <tr class="visina">
+               <td>Виолина</td>
+               <td><img src="slike/violina.jpg" class="slika" onclick="vio();" /></td>
+               <td><img src="slike/zvucnik.jpg" class="slika" onmouseover="vioplay();"/></td>
+            </tr>
+            <tr class="visina">
+               <td>Хармоника</td>
+               <td><img src="slike/harmonika.jpg" class="slika" onclick="har();" /></td>
+               <td><img src="slike/zvucnik.jpg" class="slika" onmouseover="harplay();"/></td>
+            </tr>
+            <tr class="visina">
+               <td>Хорна</td>
+               <td><img src="slike/horna.jpg" class="slika" onclick="hor();" /></td>
+               <td><img src="slike/zvucnik.jpg" class="slika" onmouseover="horplay();"/></td>
+            </tr>
+         </table>
+         <audio id ="gitmp3" src="mp3/gitara.mp3"/>
+         <audio id= "klamp3" src="mp3/klavir.mp3"/>
+         <audio id= "flamp3" src="mp3/flauta.mp3"/>
+         <audio id= "viomp3" src="mp3/violina.mp3"/>
+         <audio id= "harmp3" src="mp3/harmonika.mp3"/>
+         <audio id= "hormp3" src="mp3/horna.mp3"/>
+      </div>
+   </body>
+</html>

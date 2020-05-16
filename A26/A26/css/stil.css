@@ -1,0 +1,106 @@
+﻿.slika {
+ cursor: pointer;
+ width: 150px;
+ height: 150px;
+ 	border: 1.3px solid #fff;
+	border-radius: 10px;
+}
+
+.visina {
+ height: 200px;
+ font-family: "Times New Roman", Times, serif;
+ font-size: large;
+ color: #0000FF;
+ font-style: italic;
+}
+
+.tabela {
+	width: 100%;
+	text-align: center;
+    
+}
+
+td {
+	text-align: center;
+    	border: 1.3px solid #fff;
+	border-radius: 4px;
+}
+
+.tdsir20 {
+	width: 7%;
+}
+
+#naslov {
+	font-family: Arial;
+	font-size: x-large;
+	color: #0000FF;
+	font-weight: bold;
+	height: 40px;
+}
+
+.centar {
+	text-align: center;
+	margin-left: 35%;
+    margin-right: 40%;
+}
+
+body {
+    background-image: linear-gradient(to left bottom, #52750c, #805900, #9d2e14, #9e0048, #720c7d);
+}
+
+#naslov, h2 {
+	font-family: Arial;
+	font-size: x-large;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	border: 1.3px solid #fff;
+	border-radius: 10px;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+#centar {
+	text-align: center;
+}
+
+a, label, td {
+	color: #fff;
+	padding-top: 5px;   
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.divcic {
+	text-align: center;
+	color: #124181;
+	font-size: large;
+	border: 1.3px solid #fff;
+	border-radius: 10px;
+}
+
+.uputstvo {
+	font-family: Arial;
+	font-size: large;
+	text-align: center;
+	color: #fff;
+	margin-right: 35%;
+	margin-left: 35%;
+}
+
+input {
+	text-align: center;
+	color: #000;
+	font-size: 25px;
+	border: 0px solid #fff;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+.mrnjao {
+	margin-left: 110%;
+}
+
+.povuci20 {
+	margin-left: -69%;
+}
