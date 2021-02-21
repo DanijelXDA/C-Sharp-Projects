@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaspersky Secure VPN", "Kaspersky Secure VPN.csproj", "{87D3E8BD-CC20-4C8A-85BE-F14417D00792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87D3E8BD-CC20-4C8A-85BE-F14417D00792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D3E8BD-CC20-4C8A-85BE-F14417D00792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D3E8BD-CC20-4C8A-85BE-F14417D00792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D3E8BD-CC20-4C8A-85BE-F14417D00792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {923C5748-59FA-4E9F-BC7D-B02BD1D76738}
+	EndGlobalSection
+EndGlobal

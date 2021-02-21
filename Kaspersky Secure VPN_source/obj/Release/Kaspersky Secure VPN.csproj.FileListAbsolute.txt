@@ -1,0 +1,28 @@
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\bin\Release\Kaspersky Secure VPN.exe
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\bin\Release\Kaspersky Secure VPN.pdb
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\Kaspersky Secure VPN.csprojAssemblyReference.cache
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\MainWindow.g.cs
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\App.g.cs
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\Kaspersky Secure VPN_MarkupCompile.cache
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\Kaspersky Secure VPN_MarkupCompile.lref
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\MainWindow.baml
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\Kaspersky Secure VPN.g.resources
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\Kaspersky_Secure_VPN.Properties.Resources.resources
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\Kaspersky Secure VPN.csproj.GenerateResource.cache
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\Kaspersky Secure VPN.csproj.CoreCompileInputs.cache
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\Kaspersky Secure VPN.exe
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN\obj\Release\Kaspersky Secure VPN.pdb
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\bin\Release\Kaspersky Secure VPN.exe
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\bin\Release\Kaspersky Secure VPN.pdb
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\Kaspersky Secure VPN.csprojAssemblyReference.cache
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\MainWindow.g.cs
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\App.g.cs
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\Kaspersky Secure VPN_MarkupCompile.cache
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\Kaspersky Secure VPN_MarkupCompile.lref
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\MainWindow.baml
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\Kaspersky Secure VPN.g.resources
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\Kaspersky_Secure_VPN.Properties.Resources.resources
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\Kaspersky Secure VPN.csproj.GenerateResource.cache
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\Kaspersky Secure VPN.csproj.CoreCompileInputs.cache
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\Kaspersky Secure VPN.exe
+C:\Users\Danijel\Desktop\Kaspersky Secure VPN_source\obj\Release\Kaspersky Secure VPN.pdb
